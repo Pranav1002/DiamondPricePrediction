@@ -17,9 +17,9 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
     name='DiamondPricePrediction',
-    version='0.0.1',
+    version='1',
     author='Pranav',
-    author_email='prnvthakkar@gmail.com',
+    author_email='prnvthakkar',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 
